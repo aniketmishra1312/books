@@ -1,0 +1,71 @@
+body
+{
+background-image:url('image/IMG_20210214_110211.jpg') ;
+background-size:1000px  ;
+background-position: center;
+
+
+}
+.l{
+    background-color: rgb(209, 252, 240);
+     background-image: url('unnamed.png');
+     
+}
+h1{
+display: inline-block;
+color: red;
+font-style: oblique;
+font-size: 40px;
+
+
+}
+.logo{
+display: inline-block;
+position: absolute;
+left: 30px;
+top: 15px;
+
+
+}
+div img{
+ width: 100px;
+ 
+
+}
+.left {
+font-size: 20px;
+font-style: oblique;
+margin-left: 300px;
+
+}
+.swami{
+ margin-left: 30px;
+}
+.right{ font-size: 20px;
+font-style: oblique;
+margin-right: 300px;
+margin-left: 50px;
+
+}
+.shiva{
+margin-right: 30px;
+}
+footer{
+ color: darkslategray;
+}
+.swami:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.shiva:hover{
+    transform: scale(1.2);
+    z-index: 2;
+  
+   
+}
+a:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    color: red;
+    text-decoration: none;
+}
